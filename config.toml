@@ -1,0 +1,20 @@
+languageCode = "en-us"
+title = "Hugo Cards"
+theme = "hugo-cards"
+themesDir = "./themes"
+paginate = 6
+
+[params]
+  defaultImage = "gopher.jpg"
+
+  fbLikeBox = ""
+  fbAppId = ""
+  fbPageUrl = ""
+  fbPageTitle = ""
+
+  analytics = ""
+  disqus = ""
+
+  [params.copyright]
+     name = "shengli"
+     link = "https://github.com/shenglig"
