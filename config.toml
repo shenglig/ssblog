@@ -1,5 +1,6 @@
 languageCode = "en-us"
-title = "Hugo Cards"
+baseURL = "https://shenglig.github.io/ssblog/"
+title = "Shengli's Blog"
 theme = "hugo-cards"
 themesDir = "./themes"
 paginate = 6
