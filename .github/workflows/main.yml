@@ -18,6 +18,6 @@ jobs:
       - name: deploy hugo site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: latest
+          HUGO_VERSION: 0.57.2
           TARGET_REPO: shenglig/shenglig.github.io
           TOKEN: ${{ secrets.ACCESS_TOKEN }} 
