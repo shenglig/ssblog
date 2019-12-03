@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Markdown使用笔记"
+description: "Markdown格式使用记录"
 img: essay.jpg
 date: 2019-12-01
 tags: ["essay", "markdown"]

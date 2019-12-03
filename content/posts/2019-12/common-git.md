@@ -1,6 +1,7 @@
 ---
 layouts: post
 titile: "常用git指令"
+description: "收录日常工作中常用到的git指令"
 date: 2019-12-01
 img: github.png
 tags: ["git", "git command", "notes"]
