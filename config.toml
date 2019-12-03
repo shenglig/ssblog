@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseURL = "http://sscode.top"
+baseURL = "https://sscode.top"
 title = "Shengli's Blog"
 theme = "hugo-cards"
 themesDir = "./themes"
