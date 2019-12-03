@@ -1,0 +1,23 @@
+name: CI
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  build-deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
+        with:
+          submodles: true
+      - name: deploy hugo site
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: latest
+          TARGET_REPO: shenglig/shenglig.github.io
+          TOKEN: ${{ secrets.ACCESS_TOKEN }} 
