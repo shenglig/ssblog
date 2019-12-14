@@ -12,9 +12,7 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@master
-        with:
-          submodules: true
+        uses: textbook/git-checkout-submodule-action@master
       - name: deploy hugo site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
